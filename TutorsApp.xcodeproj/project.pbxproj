@@ -16,6 +16,8 @@
 		0473E651233C83D500AC4E64 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E650233C83D500AC4E64 /* Tutor.swift */; };
 		0473E653233C83DD00AC4E64 /* Tutor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0473E652233C83DD00AC4E64 /* Tutor.xcassets */; };
 		0473E655233D4C2B00AC4E64 /* TutorDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E654233D4C2B00AC4E64 /* TutorDetailsView.swift */; };
+		0473E65B233D5C9500AC4E64 /* TTHomeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0473E65A233D5C9500AC4E64 /* TTHomeScreen.png */; };
+		0473E65D233D5C9D00AC4E64 /* TTDetailView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0473E65C233D5C9D00AC4E64 /* TTDetailView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0473E650233C83D500AC4E64 /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		0473E652233C83DD00AC4E64 /* Tutor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tutor.xcassets; sourceTree = "<group>"; };
 		0473E654233D4C2B00AC4E64 /* TutorDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetailsView.swift; sourceTree = "<group>"; };
+		0473E65A233D5C9500AC4E64 /* TTHomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTHomeScreen.png; sourceTree = "<group>"; };
+		0473E65C233D5C9D00AC4E64 /* TTDetailView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTDetailView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +66,12 @@
 		0473E63B233C762F00AC4E64 /* TutorsApp */ = {
 			isa = PBXGroup;
 			children = (
-				0473E652233C83DD00AC4E64 /* Tutor.xcassets */,
-				0473E650233C83D500AC4E64 /* Tutor.swift */,
+				0473E656233D5BB100AC4E64 /* Model */,
+				0473E657233D5BD000AC4E64 /* View */,
+				0473E658233D5BE500AC4E64 /* Controllers */,
 				0473E654233D4C2B00AC4E64 /* TutorDetailsView.swift */,
+				0473E659233D5C0300AC4E64 /* Supporting Files */,
+				0473E652233C83DD00AC4E64 /* Tutor.xcassets */,
 				0473E63C233C762F00AC4E64 /* AppDelegate.swift */,
 				0473E63E233C762F00AC4E64 /* SceneDelegate.swift */,
 				0473E640233C762F00AC4E64 /* ContentView.swift */,
@@ -82,6 +89,37 @@
 				0473E645233C763000AC4E64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0473E656233D5BB100AC4E64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0473E650233C83D500AC4E64 /* Tutor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0473E657233D5BD000AC4E64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0473E658233D5BE500AC4E64 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0473E659233D5C0300AC4E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0473E65A233D5C9500AC4E64 /* TTHomeScreen.png */,
+				0473E65C233D5C9D00AC4E64 /* TTDetailView.png */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0473E653233C83DD00AC4E64 /* Tutor.xcassets in Resources */,
+				0473E65B233D5C9500AC4E64 /* TTHomeScreen.png in Resources */,
 				0473E649233C763000AC4E64 /* LaunchScreen.storyboard in Resources */,
+				0473E65D233D5C9D00AC4E64 /* TTDetailView.png in Resources */,
 				0473E646233C763000AC4E64 /* Preview Assets.xcassets in Resources */,
 				0473E643233C763000AC4E64 /* Assets.xcassets in Resources */,
 			);
